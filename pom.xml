@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>EmployeeManagementSystemV5</artifactId>
+    <artifactId>EmployeeManagementSystemV6</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>EmployeeManagementSystemV5</name>
     <description>EmployeeManagementSystemV5</description>
@@ -67,6 +67,12 @@
             <groupId>com.networknt</groupId>
             <artifactId>json-schema-validator</artifactId>
             <version>1.5.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.3.0</version>
         </dependency>
 
 

@@ -1,4 +1,4 @@
-package com.example.employeemanagementsystemv5.repository;
+package com.example.employeemanagementsystemv6.repository;
 
 import jakarta.persistence.EntityManagerFactory;
 import org.springframework.context.annotation.Bean;

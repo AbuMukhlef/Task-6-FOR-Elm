@@ -1,4 +1,4 @@
-package com.example.employeemanagementsystemv5.common;
+package com.example.employeemanagementsystemv6.common;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,6 +1,6 @@
-package com.example.employeemanagementsystemv5.repository;
+package com.example.employeemanagementsystemv6.repository;
 
-import com.example.employeemanagementsystemv5.common.EmployeeNotFoundException;
+import com.example.employeemanagementsystemv6.common.EmployeeNotFoundException;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;

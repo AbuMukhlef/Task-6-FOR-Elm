@@ -1,9 +1,9 @@
-package com.example.employeemanagementsystemv5.service;
+package com.example.employeemanagementsystemv6.service;
 
-import com.example.employeemanagementsystemv5.common.EmployeeNotFoundException;
-import com.example.employeemanagementsystemv5.common.JsonSchemaValidator;
-import com.example.employeemanagementsystemv5.repository.EmployeeDAO;
-import com.example.employeemanagementsystemv5.repository.Employees;
+import com.example.employeemanagementsystemv6.common.EmployeeNotFoundException;
+import com.example.employeemanagementsystemv6.common.JsonSchemaValidator;
+import com.example.employeemanagementsystemv6.repository.EmployeeDAO;
+import com.example.employeemanagementsystemv6.repository.Employees;
 import com.networknt.schema.ValidationMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

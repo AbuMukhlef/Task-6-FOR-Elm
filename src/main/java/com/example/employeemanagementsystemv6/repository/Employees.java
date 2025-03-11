@@ -1,5 +1,6 @@
-package com.example.employeemanagementsystemv5.repository;
+package com.example.employeemanagementsystemv6.repository;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 import java.io.Serializable;
 import java.util.List;
@@ -10,22 +11,29 @@ public class Employees implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Schema(description = "Unique identifier for the employee", required = true)
     private int id;
 
     @Column(name = "name")
+    @Schema(description = "Full name of the employee", example = "Abdullah", required = true)
     private String name;
 
     @Column(name = "gender")
+    @Schema(description = "Gender of the employee", example = "Male", required = true)
     private String gender;
 
     @Column(name = "dob")
+    @Schema(description = "Date of birth", example = "1989/11/16", required = true)
     private String dob;
 
     @Column(name = "phone_number", nullable = true)
+    @Schema(description = "Employee's contact number", example = "0544948800")
     private String phoneNumber;
 
-    @Column(name = "hobbies",nullable = true)
+    @Column(name = "hobbies", nullable = true)
+    @Schema(description = "List of hobbies", example = "[\"Programming\", \"Reading\"]")
     private List<String> hobbies;
+
 
     public Employees() {}
 

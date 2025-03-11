@@ -1,4 +1,4 @@
-package com.example.employeemanagementsystemv5.common;
+package com.example.employeemanagementsystemv6.common;
 
 public class EmployeeNotFoundException extends Exception {
 
